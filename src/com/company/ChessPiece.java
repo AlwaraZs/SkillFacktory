@@ -13,4 +13,8 @@ public abstract class ChessPiece {
     public abstract boolean canMoveToPosition(ChessBoard chessBoard, int line, int column, int toLine, int toColumn);
 
     public abstract String getSymbol();
+
+    boolean pointOnDeckc(int line, int column){
+        return 0 <= line && line < 8 && 0 <= column && column < 8;
+    }
 }
