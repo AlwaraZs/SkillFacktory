@@ -13,9 +13,6 @@ public class Main {
         board.board[0][3] = new Queen("White");
         board.board[0][4] = new King("White");
         board.board[0][5] = new Bishop("White");
-
-        board.board[5][2] = new Pawn("White");
-
         board.board[0][6] = new Horse("White");
         board.board[0][7] = new Rook("White");
         board.board[1][0] = new Pawn("White");
